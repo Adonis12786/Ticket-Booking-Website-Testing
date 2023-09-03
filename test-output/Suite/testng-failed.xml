@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="platform" value="local"/>
+  <listeners>
+    <listener class-name="TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="HomePageExtension.HomePageActivity">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="search"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- HomePageExtension.HomePageActivity -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="TopDeals(failed)">
+    <classes>
+      <class name="HomePageExtension.TopDealsClick">
+        <methods>
+          <include name="topdeals"/>
+          <include name="closeDriver"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- HomePageExtension.TopDealsClick -->
+    </classes>
+  </test> <!-- TopDeals(failed) -->
+  <test thread-count="5" name="Cart(failed)">
+    <classes>
+      <class name="HomePageExtension.AddtoCartActivity">
+        <methods>
+          <include name="addtocart"/>
+          <include name="closeDriver"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- HomePageExtension.AddtoCartActivity -->
+    </classes>
+  </test> <!-- Cart(failed) -->
+  <test thread-count="5" name="Registration(failed)">
+    <classes>
+      <class name="HomePageExtension.RegistrationPageActivity">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="registration"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- HomePageExtension.RegistrationPageActivity -->
+    </classes>
+  </test> <!-- Registration(failed) -->
+  <test thread-count="5" name="Login(failed)">
+    <classes>
+      <class name="HomePageExtension.LoginPageActivity">
+        <methods>
+          <include name="login"/>
+          <include name="closeDriver"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- HomePageExtension.LoginPageActivity -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test thread-count="5" name="Hotels(failed)">
+    <classes>
+      <class name="HomePageExtension.HotelsPageActivity">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="hotels"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- HomePageExtension.HotelsPageActivity -->
+    </classes>
+  </test> <!-- Hotels(failed) -->
+  <test thread-count="5" name="Holiday(failed)">
+    <classes>
+      <class name="HomePageExtension.HolidayPageActivity">
+        <methods>
+          <include name="holiday"/>
+          <include name="closeDriver"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- HomePageExtension.HolidayPageActivity -->
+    </classes>
+  </test> <!-- Holiday(failed) -->
+  <test thread-count="5" name="FlightSearch(failed)">
+    <classes>
+      <class name="HomePageExtension.FlightSearchActivity">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="flightSearch"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- HomePageExtension.FlightSearchActivity -->
+    </classes>
+  </test> <!-- FlightSearch(failed) -->
+  <test thread-count="5" name="FlightBooking(failed)">
+    <classes>
+      <class name="HomePageExtension.FlightBookingActivity">
+        <methods>
+          <include name="flightBook"/>
+          <include name="closeDriver"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- HomePageExtension.FlightBookingActivity -->
+    </classes>
+  </test> <!-- FlightBooking(failed) -->
+  <test thread-count="5" name="FlightStatus(failed)">
+    <classes>
+      <class name="HomePageExtension.FlightStatusActivity">
+        <methods>
+          <include name="flightStatus"/>
+          <include name="closeDriver"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- HomePageExtension.FlightStatusActivity -->
+    </classes>
+  </test> <!-- FlightStatus(failed) -->
+</suite> <!-- Failed suite [Suite] -->
